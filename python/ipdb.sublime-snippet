@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+import ipdb; ipdb.set_trace()
+# c - continue to the next break point
+# n - next step
+# p - print
+# pp - pprint
+# locals() - vars in local scope
+# globals() - vars in global scope
+]]></content>
+	<tabTrigger>ipdb</tabTrigger>
+	<scope>source.python</scope>
+	<description>IPython-enabled pdb</description>
+</snippet>
